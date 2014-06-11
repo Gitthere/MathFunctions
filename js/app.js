@@ -83,6 +83,7 @@
   console.log(add22);
 
   //STEP 10-3
+  var add31 = 
   add(add(1, 2), add(3, 4));
   console.log(add);
 
