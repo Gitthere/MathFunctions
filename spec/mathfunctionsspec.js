@@ -81,5 +81,11 @@ describe("MathFunctions", function () {
     expect(result).toBe(6);
   });
 
+  it("should multiply numbers properly", function() {
+    result = mul8;
+    expect(result).toBe(6);
+  });
+
+
 
 });
