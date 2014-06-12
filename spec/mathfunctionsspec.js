@@ -44,5 +44,11 @@ describe("MathFunctions", function () {
   it("should subtract multiple numbers properly", function() {
     result = test_subtract_2();
     expect(result).toBe(2);
-  })
+  });
+
+  it("should call function and add numbers", function() {
+    result = add1;
+    expect(result).toBe(3);
+  });
+
 });

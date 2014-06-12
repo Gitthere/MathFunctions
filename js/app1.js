@@ -57,7 +57,7 @@
   }
 
   //STEP 10-1
-  var add1 = add(1, 2);
+  var  = add(1, 2);
   console.log(add1);
   
   //STEP 10-2
