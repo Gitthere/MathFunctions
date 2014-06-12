@@ -121,7 +121,7 @@
                                   add(1, 2), 
                                   subtract(8,4) 
                                   ), 
-                        multiply(
+                        (
                                   add(
                                       test_add_1(), 
                                       test_subtract_1() 

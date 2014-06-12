@@ -91,6 +91,11 @@ describe("MathFunctions", function () {
     expect(result).toBe(24);
   });
 
+  it("should calculate nested functions", function() {
+    result = mul10;
+    expect(result).toBe(1200);
+  });
+
 
 
 });
