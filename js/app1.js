@@ -68,7 +68,7 @@
   //STEP 10-3
   var add31 = add(1, 2);
   var add32 = add(3, 4);
-  var  = add(add31, add32);
+  var add33 = add(add31, add32);
   add(add(1, 2), add(3, 4));
   console.log(add33);
 
