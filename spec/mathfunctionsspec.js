@@ -61,6 +61,9 @@ describe("MathFunctions", function () {
     expect(result).toBe(10);
   });
 
-  
+  it("should subtract numbers properly", function() {
+    result = sub;
+    expect(result).toBe(1);
+  });
 
 });
