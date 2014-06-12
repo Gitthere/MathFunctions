@@ -15,5 +15,10 @@ describe("MathFunctions", function () {
     result = multiply(2, 3);
     expect(result).toBe(6);
   });
+
+  it("should divide numbers properly", function() {
+    result = divide(6, 3);
+    expect(result).toBe(2);
+  });
   
 });
