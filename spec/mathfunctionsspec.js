@@ -9,6 +9,6 @@ describe("MathFunctions", function () {
   it("should subtract numbers properly", function() {
     result = subtract(3, 2);
     expect(result).toBe(1)
-  })
+  });
   
 })
