@@ -21,7 +21,7 @@
   }
 
   function power(p1, p2) {
-    return Math(p1, p2);
+    return Math.pow(p1, p2);
     console.log(power);
   }
 
