@@ -61,7 +61,7 @@
   console.log(add1);
   
   //STEP 10-2
-  var add21 = add();
+  var add21 = add(2,3);
   var add22 = add(1, add21);
   console.log(add22);
 
