@@ -56,6 +56,11 @@ describe("MathFunctions", function () {
     expect(result).toBe(6);
   });
 
-  it("should") 
+  it("should call functions and add numbers", function() {
+    result = add33;
+    expect(result).toBe(10);
+  });
+
+  
 
 });
