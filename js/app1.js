@@ -15,7 +15,7 @@
     console.log(multiply);
   }
 
-  function divide(d1) {
+  function divide(d1, d2) {
     return d1/d2;
     console.log(divide);
   }
