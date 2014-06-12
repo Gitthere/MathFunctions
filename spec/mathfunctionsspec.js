@@ -27,12 +27,12 @@ describe("MathFunctions", function () {
   });
 
   it("should add numbers properly", function() {
-    result = test_add_1(5, 4);
+    result = test_add_1();
     expect(result).toBe(9);
   });
 
   it("should add multiple numbers properly", function() {
-    result = test_add_2(add(5,4) + ta3);
+    result = test_add_2();
     expect(result).toBe(12);
   });
   
