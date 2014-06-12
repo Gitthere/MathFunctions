@@ -73,7 +73,7 @@
   console.log(add33);
 
   //STEP 10-4
-  var sub = (10, 9);
+  var sub = subtract(10, 9);
   console.log(sub);
 
   //STEP 10-5
