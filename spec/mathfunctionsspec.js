@@ -25,5 +25,10 @@ describe("MathFunctions", function () {
     result = power(2, 3);
     expect(result).toBe(8);
   });
+
+  it("should add numbers properly", function() {
+    result = test_add_1(5, 4);
+    expect(result).toBe(9);
+  });
   
 });

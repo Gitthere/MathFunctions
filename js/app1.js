@@ -27,8 +27,8 @@
 
   //STEP 6
   function test_add_1() {
-    return add(5,4);
-    // 1  
+    return add(5);
+    // 9  
   }
   
   //STEP 7
