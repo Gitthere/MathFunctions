@@ -27,7 +27,7 @@
 
   //STEP 6
   function test_add_1() {
-    return add(5);
+    return add(5, 4);
     // 9  
   }
   
@@ -42,7 +42,7 @@
   function test_subtract_1() {
     var sub1 = 5;
     var sub2 = 4; 
-    return add(5, 4);
+    return subtract(5, 4);
     // 1
   }
 
