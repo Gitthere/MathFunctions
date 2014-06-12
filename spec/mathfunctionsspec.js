@@ -36,4 +36,10 @@ describe("MathFunctions", function () {
     expect(result).toBe(12);
   });
   
+  it("should subtract numbers properly", function() {
+    result = test_subtract_1();
+    expect(result).toBe(1);
+  });
+
+  
 });
