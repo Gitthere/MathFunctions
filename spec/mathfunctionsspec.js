@@ -20,5 +20,10 @@ describe("MathFunctions", function () {
     result = divide(6, 3);
     expect(result).toBe(2);
   });
+
+  it("should figure our power of numbers", function() {
+    result = power(2, 3);
+    expect(result).toBe(8);
+  });
   
 });
