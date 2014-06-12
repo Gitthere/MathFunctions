@@ -77,7 +77,7 @@
   console.log(sub);
 
   //STEP 10-5
-  var sub5 = subtract(10, subtract(19, 10));
+  var sub5 = subtract(10, (19, 10));
   console.log(sub5);
 
   //STEP 10-6
