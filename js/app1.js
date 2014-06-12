@@ -85,7 +85,7 @@
   console.log(sub6);
 
   //STEP 10-7
-  var mul = multiply(2, 3);
+  var  = multiply(2, 3);
   console.log(mul);
 
   //STEP 10-8
