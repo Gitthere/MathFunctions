@@ -10,5 +10,10 @@ describe("MathFunctions", function () {
     result = subtract(3, 2);
     expect(result).toBe(1)
   });
+
+  it("should multiply number properly", function() {
+    result = multiply(2, 3);
+    expect(result).toBe(6);
+  });
   
-})
+});
