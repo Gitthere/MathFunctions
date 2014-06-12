@@ -93,7 +93,7 @@
   console.log(mul8);
 
   //STEP 10-9
-  var mul9 = multiply(multiply(1, 2), multiply(3, 4));
+  var mul9 = multiply(multiply(1, ), multiply(3, 4));
   console.log(mul9);
 
   //STEP 10-10
