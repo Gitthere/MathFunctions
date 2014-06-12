@@ -41,5 +41,8 @@ describe("MathFunctions", function () {
     expect(result).toBe(1);
   });
 
-  
+  it("should subtract multiple numbers properly", function() {
+    result = test_subtract_2();
+    expect(result).toBe(2);
+  })
 });

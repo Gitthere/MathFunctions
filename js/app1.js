@@ -51,7 +51,7 @@
     var ts1 = 5;
     var ts2 = 4;
     var ts3 = 3;
-    var ts4 = subtract(5,4);
+    //var ts4 = subtract(5,4);
     return ts3 - ts4;
     // 2
   }
