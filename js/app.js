@@ -97,7 +97,41 @@
   console.log(mul9);
 
   //STEP 10-10
-  var mul10 = multiply(multiply(add(1, 2), subtract(8,4) ), multiply(add(test_add_1(), test_subtract_1() ), subtract(test_add_2(), test_subtract_2() )));
+
+  //THE FOLLOWING IS USED TO DEBUG FUNCTION BY BREAKING INTO 
+  //EACH INDIVIDUAL OPERATION. THE NEW 'PIECE OF PAPER'
+  //var op1 = add(1,2);
+  //console.log("op1 "op1);
+  // var op2 = subtract(8, 4);
+  // console.log("op2 "op2);
+  // var op3 = add(test_add_1(), test_subtract_1());
+  // console.log("op3 "op3);
+  // var op4 = subtract(test_add_2(), test_subtract_2());
+  // console.log("op4 "op4);
+  // var ap1 = multiply(op1, op2);
+  // console.log("ap1 "ap1);
+  // var ap2 = multiply(op3, op4):
+  // console.log("ap2 "ap2);
+  // var mul10 = multiply(ap1, ap2);
+  // console.log("multiply("+ap1+", "+ap2+" = " +mul10);
+  // console.log(mul10);
+
+  var mul10 = multiply(
+                        multiply(
+                                  add(1, 2), 
+                                  subtract(8,4) 
+                                  ), 
+                        multiply(
+                                  add(
+                                      test_add_1(), 
+                                      test_subtract_1() 
+                                      ), 
+                                  subtract(
+                                      test_add_2(), 
+                                      test_subtract_2() 
+                                      )
+                                  )
+                        );
   console.log(mul10);
 
 }());
